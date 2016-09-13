@@ -3,7 +3,7 @@ var app = express();
 
 app.use(express.static(__dirname + '/public'));
 
-var server = app.listen((process.env.PORT || 80), function () {
+var server = app.listen((process.env.PORT || 8080), function () {
   var port = server.address().port;
   console.log('Listening at port ' + port);
 });

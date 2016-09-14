@@ -27,7 +27,8 @@
     "jquery": "^1.11.3",
     "magnific-popup": "^1.1.0",
     "scrollreveal": "^3.1.4",
-    "connect": "~3.5.0"
+    "connect": "~3.5.0",
+    "serve-static": "~1.11.1"
   },
 
   "repository": {
